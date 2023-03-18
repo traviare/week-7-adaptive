@@ -1,0 +1,273 @@
+.header,
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+
+header,
+.section-1 {
+    background-color: #6889A5;
+}
+
+.nav-1__menu {
+    font-size: 32px;
+    line-height: 29px;
+}
+
+.header__nav-2,
+.section-1__content h1 {
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.section-1__content h2 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.section-1__content p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.section-2 h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section-2__content {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.section-3 h3 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.price {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-2__content,
+.price {
+    text-transform: uppercase;
+}
+
+.section-3 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+header,
+.section-1,
+.section-3 {
+    color: #EBECDC;
+}
+
+.nav-1__menu {
+    color: #FFFFFF;
+}
+
+.section-2 {
+    color: #2D1E1E;
+}
+
+.container-fluid {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    padding: 13px 23px 25px 18px;
+}
+
+.header__content {
+    border-top: 2px solid #D9D9D9;
+    ;
+    padding-top: 13px;
+}
+
+/* header start */
+.header__content,
+.header__nav-1,
+.header__nav-2,
+.nav-1__menu,
+.nav-2__left-part,
+.nav-2__right-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1__menu,
+.nav-2__left-part {
+    gap: 16px;
+}
+
+.header__nav-2 {
+    gap: 36px;
+}
+
+.nav-2__right-part {
+    gap: 18px;
+}
+
+.nav-2__right-part select {
+    width: 138px;
+}
+
+.nav-2__right-part select {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+}
+
+/* header end */
+
+
+/* section-1 start */
+
+.section-1__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1__content {
+    max-width: 395px;
+    padding-top: 143px;
+}
+
+.section-1__content h1 {
+    padding: 0 10px 18px 10px;
+}
+
+.section-1__content h2 {
+    padding: 0 10px 30px 10px;
+}
+
+.section-1__content p {
+    padding: 0 10px 10px 10px;
+}
+
+.section-1-img {
+    padding-top: 80px;
+    padding-bottom: 63px;
+    margin-right: -120px;
+}
+
+/* section-1 end */
+
+/* section-2 start */
+
+.section-2 h2 {
+    padding: 28px 0 30px 115px;
+}
+
+.section-2__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+    justify-items: center;
+    border-bottom: 2px solid #2D1E1E;
+    margin-bottom: 15px;
+}
+
+.section-2__card-1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.section-2__card-2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.section-2__card-3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.section-2__card-4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+
+/* .section-2__card-1,
+.section-2__card-2,
+.section-2__card-3,
+.section-2__card-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.card__information {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card__name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.card__size {
+    display: flex;
+    gap: 6px;
+    padding-bottom: 9px;
+}
+
+
+
+/* section-2 end */
+
+/* section-3 start */
+
+.section-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.section-3__part-left {
+    background-image: url(../assets/images/section-3-img-1.jpg);
+    grid-column: 1 / 2;
+}
+
+.section-3__part-right {
+    background-image: url(../assets/images/section-3-img-2.jpg);
+    grid-column: 2 / 3;
+    background-repeat: no-repeat;
+}
+
+.section-3__part-right,
+.section-3__part-left {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3__part-left,
+.section-3__part-right {
+    padding: 377px 0 379px 0;
+    text-align: center;
+}
+
+/* section-1 end */
