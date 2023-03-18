@@ -118,11 +118,11 @@ header,
 }
 
 .nav-2__right-part {
-    gap: 18px;
+    gap: 35px;
 }
 
 .nav-2__right-part select {
-    width: 138px;
+    width: 100px;
 }
 
 .nav-2__right-part select {
@@ -134,8 +134,8 @@ header,
 }
 
 .header {
-    width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0px;
 }
 
 /* header end */
@@ -150,7 +150,7 @@ header,
 
 .section-1__content {
     max-width: 395px;
-    padding-top: 143px;
+    padding-top: 63px;
 }
 
 .section-1__content h1 {
@@ -166,9 +166,8 @@ header,
 }
 
 .section-1-img {
-    padding-top: 80px;
     padding-bottom: 63px;
-    margin-right: -120px;
+    margin-right: -100px;
 }
 
 /* section-1 end */
