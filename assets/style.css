@@ -42,8 +42,7 @@ header,
     line-height: 20px;
 }
 
-.section-3 h3,
-.section-4__btn {
+.section-3 h3 {
     font-size: 16px;
     line-height: 19px;
 }
@@ -69,12 +68,6 @@ header,
 .section-4__content p {
     font-size: 13px;
     line-height: 17px;
-}
-
-
-.section-4__checkbox p {
-    font-size: 11px;
-    line-height: 14px;
 }
 
 header,
@@ -293,49 +286,30 @@ header,
 /* section-4 start */
 .section-4__content {
     text-align: center;
-    letter-spacing: 1px;
 }
 
 .section-4__content h2 {
     padding-top: 64px;
 }
 
-.section-4__content p {
+/* .section-4__content p {
     padding-bottom: 50px;
-}
-
+} */
+/* 
 .section-4__email {
     padding-bottom: 19px;
-}
+} */
 
 .section-4__checkbox {
     padding-bottom: 81px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
     gap: 16px;
 }
 
+/* 
 .section-4__checkbox p {
     padding-bottom: 0px;
-}
-
-.section-4__btn,
-.section-4__email input {
-    background-color: inherit;
-}
-
-.section-4__btn,
-.section-4__email input {
-    border: none;
-}
-
-.section-4__email input {
-    border-bottom: 1px solid #2D1E1E;
-}
-
-.section-4__btn {
-    margin-left: 40px;
-}
+} */
 
 /* section-4 end */
